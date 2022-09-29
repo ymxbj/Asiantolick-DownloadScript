@@ -1,7 +1,7 @@
 import requests
 import os
 
-url_path = 'file_url.txt'
+url_path = 'zip_url.txt'
 url_lines = open(url_path, 'r').readlines()
 
 error_path = 'download_error.txt'

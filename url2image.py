@@ -5,7 +5,7 @@ import time
 url_path = 'download_url.txt'
 url_lines = open(url_path, 'r').readlines()
 
-output_file = open('imgs_url.txt',mode='a')
+output_file = open('image_url.txt',mode='a')
 
 for i, line in enumerate(url_lines):
     if i < 0:

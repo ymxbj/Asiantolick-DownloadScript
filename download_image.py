@@ -2,7 +2,7 @@ from curses import savetty
 import requests
 import os
 
-url_path = 'imgs_url.txt'
+url_path = 'image_url.txt'
 url_lines = open(url_path, 'r').readlines()
 
 start_index = 0
